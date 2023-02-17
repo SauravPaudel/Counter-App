@@ -98,8 +98,7 @@ function AddList({setList}) {
         const price = event.target.elements.price.value;
         const newlist = {
             id: 3,
-            name,
-            price
+            name,price
         }
         setList((prevList)=> {
             return prevList.concat(newlist)
@@ -109,8 +108,8 @@ function AddList({setList}) {
     }
     return(
         <form className='addForm' onSubmit={handleSubmit}>
-            <input type="text" name="name" placeholder="Enter Product" ref={nameRef}/>
-            <input type="text" name="price" placeholder="Enter Price" ref={priceRef}/>
+            <input type="text" name="name" placeholder="Enter Product Name" ref={nameRef}/>
+            <input type="text" name="price" placeholder="Enter Product Price" ref={priceRef}/>
             <button type="submit">Add</button>
         </form>
     )
