@@ -108,8 +108,8 @@ function AddList({setList}) {
     }
     return(
         <form className='addForm' onSubmit={handleSubmit}>
-            <input type="text" name="name" placeholder="Enter Product Name" ref={nameRef}/>
-            <input type="text" name="price" placeholder="Enter Product Price" ref={priceRef}/>
+            <input type="text" name="name" placeholder="Enter Product Name" id="uname" ref={nameRef}/>
+            <input type="number" name="price" placeholder="Enter Product Price" id='uprice' ref={priceRef}/>
             <button type="submit">Add</button>
         </form>
     )
