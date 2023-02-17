@@ -1,0 +1,19 @@
+.container {
+  background-color: #73b824;
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 300px;
+  height: 150px;
+};
+
+.containerTwo{
+background-color: aquamarine;
+border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 300px;
+  height: 150px;
+}
