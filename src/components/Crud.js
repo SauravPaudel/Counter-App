@@ -77,7 +77,7 @@ function EditList({current, lists, setList}) {
         const newlist = lists.map((li) => (
             li.id === current.id ? {...li, price :value} : li
         ))
-
+        
         setList(newlist)
     }
     return(

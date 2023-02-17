@@ -1,6 +1,6 @@
 /* Css for Counter Application  */
 .container {
-  background-color: #d8c0c9;
+  background-color: rgb(174, 221, 124);
   border-radius: 25px;
   background-repeat: repeat;
   padding: 20px;
@@ -10,27 +10,39 @@
   margin: 0 auto;
   
 }
-.container button{
-  background-color: red;
+.container button.btn{
+  border: 1px solid green;
+  background-color: rgb(7, 168, 7);
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  border-radius:5px;
 }
+
+.container button.btn:hover{
+  background-color: rgb(3, 71, 3);
+}
+
+.container h2{
+  text-decoration: underline;
+}
+
 /* Css for Crud Application   */
 .crud h3{
   font-family:  'Maven Pro', sans-serif;
   font-size: 20px;
+  text-decoration: underline;
 }
 .crud {
   width: 700px;
   margin: 20px auto;
-  /* display: flex; */
   justify-content: center;
   position: relative;
   padding: 50px;
   align-items: center;
   background-color: #E8F3D6;
   border-radius: 20px;
-
 }
-
 table td {
   width: 200px;
   height: 30px;
@@ -38,7 +50,6 @@ table td {
   text-align: center;
   color: rgb(0, 0, 0);
 }
-
 table td button {
   padding: 5px 10px;
   border-radius: 10%;
@@ -64,7 +75,6 @@ table td button.delete:hover {
   background-color: rgb(92, 5, 5);
 }
 
-
 .addForm {
   margin-bottom: 30px;
 }
@@ -82,13 +92,30 @@ table td button.delete:hover {
   background-color: rgb(5, 86, 5);
 }
 
-.App{
+/* Css for the Component App */
+.Apps{
   background-color: rgb(174, 221, 124);
   width: 700px;
   position: relative;
   margin: 0 auto;
   border-radius: 25px;
   padding: 50px;
-
+}
+.childOne button.btn{
+  border: 1px solid green;
+  background-color: rgb(7, 168, 7);
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  border-radius:5px;
+}
+.childOne button.btn:hover{
+  background-color: rgb(3, 71, 3);
+}
+.Apps h3{
+  font-family:  'Maven Pro', sans-serif;
+  font-size: 20px;
+  margin-bottom:50px;
+  text-decoration: underline;
 }
 *{box-sizing: border-box;}

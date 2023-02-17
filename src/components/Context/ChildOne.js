@@ -3,13 +3,13 @@ import {Context} from './Context';
 function ChildOne(){
 const{globalState,setGlobalState}=useContext(Context);
 const handClick = ()=> {
-  setGlobalState('update state from ChildOne')
+  setGlobalState('This is Updated from Child One')
 };
 return(
-  <div>
+  <div className="childOne">
     <h2>Child One</h2>
     <p>{globalState}</p>
-    <button onClick={handClick}>Update Global State</button>
+    <button className='btn' onClick={handClick}>Update Global State</button>
   </div>
 );
 }
