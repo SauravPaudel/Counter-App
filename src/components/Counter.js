@@ -17,9 +17,9 @@ function Counter() {
     <div className="container">
       <h2>Counter App</h2>
       <p>Current Count: {count}</p>
-      <button onClick={increment}>Increment</button>
-      <button onClick={decrement}>Decrement</button>
-      <button onClick={reset}>Reset</button>
+      <button className="btn-in"onClick={increment}>Increment</button>
+      <button className="btn-dc"onClick={decrement}>Decrement</button>
+      <button className="btn-re" onClick={reset}>Reset</button>
     </div>
   );
 }
