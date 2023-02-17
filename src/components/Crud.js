@@ -17,7 +17,6 @@ function Crud() {
     const [lists, setList] = useState(list)
     const [updateState, setUpdateState] = useState(-1)
     return(
-       
         <div className='crud'>
          <h3>Crud Application</h3>    
             <div>
@@ -77,7 +76,7 @@ function EditList({current, lists, setList}) {
         const newlist = lists.map((li) => (
             li.id === current.id ? {...li, price :value} : li
         ))
-        
+
         setList(newlist)
     }
     return(
