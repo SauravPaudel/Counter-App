@@ -22,13 +22,17 @@
 }
 
 /* Css for Crud Application   */
-.h1{
+.crud h3{
   font-family:  'Maven Pro', sans-serif;
   font-size: 20px;
+  position: relative;
+  bottom: 150px;
+  left: 150px;
+
 }
 .crud {
-  width: 800px;
-  height: 300px;
+  width: 700px;
+  height: 400px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -37,6 +41,7 @@
   align-items: center;
   background-color: #E8F3D6;
   border-radius: 20px;
+
 }
 
 table td {
@@ -45,6 +50,8 @@ table td {
   background-color: #6FEDD6;
   text-align: center;
   color: rgb(0, 0, 0);
+  position: relative;
+  right: 20px;
   
 }
 
