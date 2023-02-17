@@ -9,9 +9,8 @@ return(
   <div>
     <h2>Child One</h2>
     <p>{globalState}</p>
-    <button>onClick={handClick}{'>'} Update Global State</button>
+    <button onClick={handClick}>Update Global State</button>
   </div>
 );
 }
-
 export default ChildOne;
